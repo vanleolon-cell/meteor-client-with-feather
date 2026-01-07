@@ -43,7 +43,7 @@ Please provide as much information as you can to best help us understand your is
 All of our work is completely free and non-profit (donations pay only for hosting costs), therefore we are very grateful for all donations made to support us in running our community.  
 Donations can be made via our [website](https://meteorclient.com/donate) and the minimum amount to get donor benefits is €5.  
 You will be rewarded with a role on our Discord server and a customisable in-game cape.  
-⚠️ _Make sure to create a Meteor account and link your Discord and Minecraft accounts to fully experience your rewards._ ⚠️
+⚠️ _Make sure to create Meteor account and link your Discord and Minecraft accounts to fully experience your rewards._ ⚠️
 
 ## Credits
 [Cabaletta](https://github.com/cabaletta) and [WagYourTail](https://github.com/wagyourtail) for [Baritone](https://github.com/cabaletta/baritone)  
