@@ -156,7 +156,7 @@ public abstract class ChatHudMixin implements IChatHud {
     // Changed from (DrawContext, int, int, float, CallbackInfo)
     // to (DrawContext, int, int, int, boolean, CallbackInfo)
     @Inject(method = "render", at = @At("TAIL"))
-    private void onRender_afterDrawTextWithShadow(DrawContext context, int mouseX, int mouseY, int tickDelta, boolean focused, CallbackInfo info) {
+    private void onRender_afterDrawTextWithShadow(DrawContext context, int mouseX, int mouseY, int tickDelta, boolean focused, boolean focused2, CallbackInfo info) {
         getBetterChat().afterDrawMessage();
     }
 
