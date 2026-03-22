@@ -157,7 +157,7 @@ public abstract class ChatHudMixin implements IChatHud {
     // to (DrawContext, int, int, int, boolean, CallbackInfo)
     @Inject(method = "render", at = @At("TAIL"))
     private void onRender_afterDrawTextWithShadow(DrawContext context, int mouseX, int mouseY, int tickDelta, boolean focused, CallbackInfo info) {
-        getBetterChat().afterDrawMessage(context);
+        getBetterChat().afterDrawMessage();
     }
 
     // No Message Signature Indicator
