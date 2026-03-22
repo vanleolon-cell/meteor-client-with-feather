@@ -145,6 +145,10 @@ afterEvaluate {
 
 loom {
     accessWidenerPath = file("src/main/resources/meteor-client.accesswidener")
+    
+    mixin {
+        defaultRefmapName = "meteor-client.mixins.refmap.json"
+    }
 }
 
 tasks {
